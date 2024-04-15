@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City of Miami Municode Q&A</title>
+</head>
+<body>
+    <h1>City of Miami Municode Q&A</h1>
+    <form method="post">
+        <input type="text" name="question" placeholder="Enter your question here..." value="{{ question }}">
+        <input type="submit" value="Ask">
+    </form>
+    {% if response %}
+    <h2>Response:</h2>
+    <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>
