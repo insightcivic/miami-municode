@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 import os
 from dotenv import load_dotenv
 from langchain.document_loaders import TextLoader
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
