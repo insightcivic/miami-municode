@@ -9,6 +9,7 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
+
 app = Flask(__name__)
 
 # Load environment variables
