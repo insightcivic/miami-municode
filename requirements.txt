@@ -1,5 +1,4 @@
 beautifulsoup4==4.12.3
-build==1.2.1
 cachetools==5.3.3
 faiss-cpu==1.8.0
 fastapi==0.110.1
@@ -21,9 +20,7 @@ pandocfilters==1.5.1
 pillow==10.3.0
 pydantic==2.7.0
 pydantic_core==2.18.1
-pydeck==0.8.1b0
 tiktoken==0.6.0
 tokenizers==0.15.2
 transformers==4.39.3
-watchfiles==0.21.0
-wheel==0.41.2
+
